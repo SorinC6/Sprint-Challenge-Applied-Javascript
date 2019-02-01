@@ -72,7 +72,7 @@ class TabLink {
       // Update the style of this.cardElement to display = "flex"
       // this.cardElement;
       this.cardElement.style.display = "flex";
-      
+      TweenMax.from(this.cardElement,3,{scale:0,ease: Bounce.easeOut});
     }
   
   }

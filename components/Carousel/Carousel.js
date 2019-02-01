@@ -26,6 +26,8 @@ class Carousel {
     }
     showPictures(element) {
         element.style = "display: block";
+        TweenMax.from(element,3,{scale:0,ease: Elastic.easeOut.config(1, 0.3)});
+
     }
     hidePictures(element) {
         element.style = "display: none";
